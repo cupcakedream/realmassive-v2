@@ -1,0 +1,74 @@
+.label-color-field {
+	vertical-align:top;
+}
+.enableurltrigger_filters,
+.do-list-pages-container,
+.divi_automatictrigger_timed,
+.divi_automatictrigger_scroll,
+.enable_customizations,
+.form_schedule,
+.daterangepicker {
+	display:none;
+}
+
+.do-show {
+	display:block !important;
+}
+
+.do-list-pages-container {
+	margin-top:4px;
+}
+
+.post_at_scroll {
+	width:70px;
+}
+
+.dov_closebtn_cookie,
+.post_doclosebtn_fontsize,
+.post_doclosebtn_borderradius,
+.post_doclosebtn_padding {
+	width:37px;
+}
+
+.overlay-customclose-btn {
+	width: auto;
+	height: auto;
+	display:block;
+	position:relative;
+	overflow: hidden;
+	border: none;
+	outline: none;
+	font-size: 100px;
+	line-height:60px;
+	min-height: 15px;
+	color:#333;
+	background-color:transparent;
+    font-family: inherit;
+    font-weight: 300;
+}
+
+.overlay-customclose-btn:after {
+	content: ' ';
+	display:block;
+	font-size:70px;
+	height:25px;
+	width:25px;
+	z-index:99;
+	position:relative;
+}
+
+.overlay-customclose-btn span {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.settings_page_divi_overlays_dashboard input#api_key, 
+.settings_page_divi_overlays_dashboard input#activation_email {
+	-webkit-text-security: disc !important;
+}
+
+.select-dov_timezone {
+	width:250px !important;
+}

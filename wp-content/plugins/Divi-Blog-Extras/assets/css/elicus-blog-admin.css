@@ -1,0 +1,31 @@
+.et-pb-all-modules li.et_pb_blog_extras,
+.et_pb_saved_layouts_list li.et_pb_blog_extras,
+.et-pb-all-modules li.et_pb_blurb_extended,
+.et_pb_saved_layouts_list li.et_pb_blurb_extended {
+    background-color: #3dda85;
+    font-weight: 500;
+    color: #fff;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+
+.et-pb-all-modules li.et_pb_blog_extras:hover,
+.et_pb_saved_layouts_list li.et_pb_blog_extras:hover,
+.et-pb-all-modules li.et_pb_blurb_extended:hover,
+.et_pb_saved_layouts_list li.et_pb_blurb_extended:hover {
+   background-color: #33bd73;
+}
+
+.et-pb-all-modules li.et_pb_blog_extras:before,
+.et_pb_saved_layouts_list li.et_pb_blog_extras:before {
+    font-family: 'dashicons';
+    content: '\f130'
+}
+
+
+.et-pb-all-modules li.et_pb_blurb_extended:before,
+.et_pb_saved_layouts_list li.et_pb_blurb_extended:before {
+    font-family: 'dashicons';
+    content: '\f134'
+}
