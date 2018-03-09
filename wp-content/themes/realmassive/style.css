@@ -290,7 +290,8 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Titillium Web', sans-serif;}
 {content:'\25A0';color:#c1ae6b;position:absolute;left:5px;}
 
 /* Gravity Forms Material Design */
-#lb-page #lb-content #et_builder_outer_content #gform_wrapper_1 {padding:25px;
+#lb-page #lb-content #et_builder_outer_content #gform_wrapper_1,
+#lb-page #lb-content #et_builder_outer_content #gform_wrapper_3 {padding:25px;
 	border:1px solid #ccc;border-radius:3px;margin-top:15px !important;background:#fff;}
 #lb-page .gform_body ul li:before {display:none !important;}
 #lb-page #lb-content .gform_body .gform_fields {padding:0;}
@@ -321,9 +322,12 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Titillium Web', sans-serif;}
 	color:#fff;text-align:center;border-radius:3px;margin-top:12px;font-size:14px;}
 #lb-page #lb-content .gform_button:hover {background:#2980ba;}
 #lb-page #lb-content .gform_confirmation_message_1 {margin-top:20px;font-weight:700;color:#3c97d3;}
-#lb-page #lb-content #gform_wrapper_1 #field_1_11, #lb-page #lb-content #gform_wrapper_1 #field_1_10 {
+#lb-page #lb-content #gform_wrapper_1 #field_1_11, #lb-page #lb-content #gform_wrapper_1 #field_1_10,
+#lb-page #lb-content #gform_wrapper_3 #field_3_11, #lb-page #lb-content #gform_wrapper_3 #field_3_10,
+#lb-page #lb-content #gform_wrapper_3 #field_3_9, #lb-page #lb-content #gform_wrapper_3 #field_3_1 {
 	float:left;overflow:hidden;clear:none;max-width:160px;}
-#lb-page #lb-content #gform_wrapper_1 #field_1_10 {margin-left:30px !important;}
+#lb-page #lb-content #gform_wrapper_1 #field_1_10, #lb-page #lb-content #gform_wrapper_3 #field_3_10,
+#lb-page #lb-content #gform_wrapper_3 #field_3_1 {margin-left:30px !important;}
 
 /* Newsletter Form */
 #lb-page #gform_2 .gform_fields {padding:0 !important;}
