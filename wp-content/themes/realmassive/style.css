@@ -330,6 +330,7 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Titillium Web', sans-serif;}
 #lb-page #lb-content #gform_wrapper_4 #field_4_9, #lb-page #lb-content #gform_wrapper_4 #field_4_13,
 #lb-page #lb-content #gform_wrapper_4 #field_4_14, #lb-page #lb-content #gform_wrapper_4 #field_4_3 {
 	float:left;overflow:hidden;clear:none;max-width:160px;}
+#lb-page #lb-content #gform_wrapper_4 #field_4_3 {width:160px;}
 #lb-page #lb-content #gform_wrapper_1 #field_1_10, #lb-page #lb-content #gform_wrapper_3 #field_3_10,
 #lb-page #lb-content #gform_wrapper_3 #field_3_13, #lb-page #lb-content #gform_wrapper_4 #field_4_10,
 #lb-page #lb-content #gform_wrapper_4 #field_4_13, #lb-page #lb-content #gform_wrapper_4 #field_4_3 {
@@ -426,6 +427,7 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Titillium Web', sans-serif;}
 	#lb-page #lb-content #gform_wrapper_3 .ginput_container.ginput_recaptcha,
 	#lb-page #lb-content #gform_wrapper_4 .ginput_container.ginput_recaptcha {
 		transform:scale(.7);transform-origin:left;position:relative;left:2.5px;}
+	#lb-page #lb-content #gform_wrapper_3 #field_3_12 {transform:scale(.6);}
 
 	/* Remove Header Inset */
 	#lb-page #lb-content #et_builder_outer_content .et_pb_row_fullwidth {max-width:100% !important;
