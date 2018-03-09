@@ -409,7 +409,11 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Titillium Web', sans-serif;}
 
 	/* Contact Forms */
 	.page-id-631 #lb-page #lb-content #et_builder_outer_content .et_pb_text_3 {padding-right:0 !important;}
-	#lb-page #lb-content #gform_wrapper_1 .gfield {max-width:100% !important;float:none !important;margin-left:0px !important;}
+	#lb-page #lb-content #gform_wrapper_1 .gfield {max-width:100% !important;float:none !important;}
+	#lb-page #lb-content #gform_wrapper_1 #field_1_10, #lb-page #lb-content #gform_wrapper_3 #field_3_10,
+	#lb-page #lb-content #gform_wrapper_3 #field_3_13, #lb-page #lb-content #gform_wrapper_4 #field_4_10,
+	#lb-page #lb-content #gform_wrapper_4 #field_4_13, #lb-page #lb-content #gform_wrapper_4 #field_4_3 {
+		margin-left:0px !important;}
 	/* #lb-page #lb-content #gform_wrapper_1 .gfield {} */
 	#lb-page #lb-content .gform_body .ginput_container input {padding:2px 0;}
 	#lb-page #lb-content .gform_body .lb-in-focus .gfield_label,
